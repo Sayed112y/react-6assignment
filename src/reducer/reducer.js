@@ -1,4 +1,4 @@
-const URL = "http://localhost:4000/models";
+const URL = "https://jsonplaceholder.typicode.com/todos";
 
 let initialState = {
   number: 1,
