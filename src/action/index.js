@@ -1,6 +1,6 @@
 export const FETCH_SOMETHING= 'FETCH_SOMETHING';
 
-const URL = "http://localhost:4000/models";
+const URL = "https://jsonplaceholder.typicode.com/todos";
 
 export function fetchWeather(city) {
 

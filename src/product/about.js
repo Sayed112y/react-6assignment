@@ -5,7 +5,7 @@ function About({match}) {
     let history = useHistory();
 
     function goHome() {
-        history.push("/products");
+        history.push("/product");
     }
     return (
         <Fragment>

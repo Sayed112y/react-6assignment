@@ -14,11 +14,11 @@ class App extends Component {
         <Router>
         <div>
           <Navigator />
-          <Switch>
-            <Route path="/" component={About} exact/>
-            <Route path="/about/:product" component={lazy(() => import ('././product/about'))} />
-            <Route path="/addproduct" component={lazy(() => import ('././product/addproduct'))} />
-            <Route path="/products" component={lazy (() => impoer ('./product/allproduct'))} />
+           <Switch>
+            <Route path="/product" component={About} exact/>
+            <Route path="/product" component={lazy(() => import ('./product/about'))} />
+            <Route path="/product" component={lazy(() => import ('./product/addproduct'))} />
+            <Route path="/product" component={lazy (() => import ('./product/allproduct'))} />
           </Switch>
         </div>
         </Router>
